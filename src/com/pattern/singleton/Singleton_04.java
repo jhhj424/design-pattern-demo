@@ -2,7 +2,7 @@ package com.pattern.singleton;
 
 public class Singleton_04 {
 
-    private static Singleton_04 instance;
+    private static volatile Singleton_04 instance;
 
     private Singleton_04() {
     }
