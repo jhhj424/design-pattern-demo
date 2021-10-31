@@ -1,6 +1,8 @@
 package com.pattern.singleton;
 
-public class Singleton_05 {
+import java.io.Serializable;
+
+public class Singleton_05 implements Serializable {
 
     private Singleton_05() {}
 
